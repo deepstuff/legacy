@@ -1,7 +1,7 @@
 Legacy vectors
 ==============
 
-Scripts to run neural nets over
+Scripts to run neural nets over FS legacy vectors
 
 * First, install tensorflow: https://www.tensorflow.org/install/install_mac
  (when you follow the instructions to run virtualenv to create your virtual environtment,
