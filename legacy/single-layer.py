@@ -31,7 +31,7 @@ def test_input_fn():
 classifier = tf.contrib.learn.LinearClassifier(feature_columns=feature_columns, model_dir='../models/testsingle-layer-model')
 
 # train classifier - ignore the warnings
-classifier.fit(input_fn=train_input_fn, steps=10)
+classifier.fit(input_fn=train_input_fn, steps=100000)
 
 # evaluate classifier on train data
 train_results = classifier.evaluate(input_fn=train_input_fn, steps=1)
