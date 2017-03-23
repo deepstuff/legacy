@@ -7,7 +7,7 @@ Scripts to run neural nets over FS legacy vectors
  (when you follow the instructions to run virtualenv to create your virtual environtment,
  add --python=python3.6 or something to get python3: `virtualenv --python=python3.6 tensorflow`)
 * Second, download legacy-vectors.csv and put it in the "data" directory
-* Third, run `pip3 install requirements.txt`
+* Third, run `pip3 install -r requirements.txt`
 
 Single-layer
 ------------
